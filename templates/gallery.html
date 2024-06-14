@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery</title>
+</head>
+<body>
+<h1>Gallery</h1>
+<ul>
+{% for creation in creations %}
+<li>{{ creation.title }} by {{ creation.artist }}</li>
+{% endfor %}
+</ul>
+</body>
+</html>
+
